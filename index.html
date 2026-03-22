@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<nav>
+  <div class="nav-logo">YourName.dev</div>
+  <div class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-grid"></div>
+    <div class="blob"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Available for opportunities</span>
+      <h1>Building<br><span>digital</span><br>systems.</h1>
+      <p class="hero-sub">Software engineer focused on clean architecture, scalable backends, and thoughtful UX.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Let's Talk</a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="reveal">
+      <p class="section-label">/ Selected work</p>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid reveal">
+
+      <div class="project-card">
+        <div class="project-num">01</div>
+        <h3>Project Alpha</h3>
+        <p>A full-stack web application for real-time data visualization. Built with a focus on performance and a clean user experience.</p>
+        <div class="project-tags">
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">WebSockets</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">02</div>
+        <h3>Project Beta</h3>
+        <p>An open-source CLI tool to automate repetitive developer workflows. Used by 500+ developers across GitHub.</p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">CLI</span>
+          <span class="tag">Docker</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-num">03</div>
+        <h3>Project Gamma</h3>
+        <p>A mobile-first e-commerce platform with a headless CMS, custom checkout flow, and Stripe integration.</p>
+        <div class="project-tags">
+          <span class="tag">Next.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Stripe</span>
+          <span class="tag">Tailwind</span>
+        </div>
+        <a href="#" class="project-link">View Project</a>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="reveal">
+      <p class="section-label">/ Toolbox</p>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+    </div>
+    <div class="skills-wrapper reveal">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skill-item">
+          <span class="skill-name">JavaScript / TypeScript</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:92%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Python</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">SQL</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:78%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Go</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:60%"></div></div>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Frameworks &amp; Tools</h4>
+        <div class="skill-item">
+          <span class="skill-name">React / Next.js</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Node.js / Express</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:88%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Docker / Kubernetes</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:72%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">AWS / GCP</span>
+          <div class="skill-bar-wrap"><div class="skill-bar" style="--w:68%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="reveal">
+      <p class="section-label">/ Background</p>
+      <h2 class="section-title">Education &amp; Certs</h2>
+    </div>
+    <div class="edu-list reveal">
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-degree">B.E. in Computer Science</div>
+          <div class="edu-school">Your University Name</div>
+          <div class="edu-desc">Coursework in data structures, algorithms, OS, and distributed systems. Final year project on ML-based anomaly detection.</div>
+        </div>
+        <div class="edu-year">2020 – 2024</div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-degree">AWS Certified Developer – Associate</div>
+          <div class="edu-school">Amazon Web Services</div>
+        </div>
+        <div class="edu-year">2023</div>
+      </div>
+
+      <div class="edu-item">
+        <div>
+          <div class="edu-degree">Google Data Analytics Certificate</div>
+          <div class="edu-school">Google / Coursera</div>
+        </div>
+        <div class="edu-year">2022</div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="reveal">
+      <p class="section-label">/ Get in touch</p>
+      <h2 class="section-title">Let's build<br><span style="color:var(--accent)">something.</span></h2>
+      <p>Open to full-time roles, freelance projects, and interesting collaborations. Drop a message.</p>
+      <div class="contact-links">
+        <a href="mailto:you@email.com" class="btn btn-primary">Email Me</a>
+        <a href="https://github.com/yourusername" target="_blank" class="btn btn-ghost">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank" class="btn btn-ghost">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© 2026 Your Name</span>
+  <span>Built with HTML · CSS · JS</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
