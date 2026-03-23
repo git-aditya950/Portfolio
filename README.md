@@ -27,7 +27,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/git-aditya950/Portfolio.git
+git clone https://github.com/RaoAdii/Portfolio.git
 ```
 
 2. Navigate to the directory:
@@ -91,7 +91,7 @@ This project is open source and available under the MIT License.
 
 **Aditya**
 
-- GitHub: [@git-aditya950](https://github.com/git-aditya950)
+- GitHub: [@RaoAdii](https://github.com/RaoAdii)
 
 ---
 
